@@ -1,0 +1,25 @@
+{
+  "swagger": "2.0",
+  "basePath": "/helloworld",
+  "info": {
+    "title": "Hello World service",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "This is the _only_ endpoint for this example REST service. It returns the string **\"Hello world.\"**",
+        "operationId": "Test",
+        "responses": {
+          "200": {
+            "description": "success",
+          }
+        },
+        "summary": "Return hello world message.",
+        "produces": [
+          "text/plain"
+        ],
+      }
+    }
+  }
+}
