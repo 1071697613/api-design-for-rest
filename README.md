@@ -18,10 +18,15 @@ A simple REST service to demonstrate the **Spec-first development** approach.
 
 The Swagger spec `helloworld.json` can be found in the `/samples/json` directory of this repository. Using the `^%REST` utility, create a REST application `HelloWorld` using the Swagger spec.
 
+Scaffolding code is included in the APIDesignForREST directory.
+
 **3. Word Game REST service (Requires IRIS 2019.1)**
 A more detailed Swagger spec illustrating both GET and POST requests, parameters, and schema definitions.
 
 Two Swagger spec files, `wordgame.json` and `wordgame2.json` can be found in the `/samples/json` directory of this repository. Using the `^%REST` utility, create a REST application `WordGame` using the Swagger spec.
 
+Scaffolding code is included.
+
 Enjoy!
+
 _— MS_
